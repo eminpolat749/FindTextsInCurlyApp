@@ -7,6 +7,7 @@ public class App {
 	public static void main(String [] args)
 	{
 		FindTextsInCurlyApp.run();
+		
 	}
 
 }
@@ -30,7 +31,7 @@ class FindTextsInCurlyApp {
 			
 			System.out.println(findTextsInCurly.isValid ? findTextsInCurly.result : "Yanlış giriş");
 		}
-		System.out.println("Program sonu...");
+		System.out.println("Program sonu!...");
 	}
 }
 
